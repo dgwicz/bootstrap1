@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+@import url("https://fonts.googleapis.com/css?family=roboto");
+
+body {
+    font-family: "Roboto";
+    overflow-x: hidden;
+}
+
+/* id menu */
+
+#menu li>a {
+    font-size: 18px;
+    font-weight: bold;
+    color: #3f3f3f;
+}
+
+
+#menu form>button {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+.carousel-inner {
+    max-height: 39rem;
+}
+
+
+footer {
+    background: #e2e2e2;
+    min-width: 100px;
+}
+
+footer p {
+    color: #f3f3f3;
+    text-align: center;
+}
+
+#iconos i {
+    font-size: 26px;
+    color: black;
+}
+
+.container {
+    color: white;
+    padding-bottom: 30px;
+}
+
+/* Pagina propiedades Propiedades */
+.propiedades {
+    border-top-width: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    margin: 50px;
+}
+
+.propiedad1 {
+    text-align-last: center;
+    border-radius: 50px;
+    background-color: rgb(230, 230, 230);
+}
+
+.propiedad2 {
+    text-align-last: center;
+    border-radius: 50px;
+    background-color: rgb(230, 230, 230);
+}
+
+.propiedad3 {
+    text-align-last: center;
+    border-radius: 50px;
+    background-color: rgb(230, 230, 230);
+
+
+    
+
+
+#contenedorFormulario{
+    position: absolute;
+    top:30%;
+    left:50;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius:5px;
+    max-width: 500px;
+} 
+
+
+
+
+
+    @media screen and (max-width:768px) {
+        #intro {
+            width: 90% !important;
+            background-color: rgb(230, 230, 230);
+        }
+
+        .servicio-fila {
+            width: 100% !important;
+            text-align: center;
+        }
+
+    }
